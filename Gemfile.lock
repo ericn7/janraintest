@@ -47,6 +47,7 @@ GEM
       railties (< 5.0, >= 3.0)
       thor (< 2.0, >= 0.14)
     json (1.7.7)
+    json_pure (1.7.7)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -80,6 +81,8 @@ GEM
     rake (10.0.3)
     rdoc (3.12.2)
       json (~> 1.4)
+    rpx_now (0.6.24)
+      json_pure
     sass (3.2.7)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -108,5 +111,6 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.12)
+  rpx_now
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)

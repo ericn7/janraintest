@@ -1,4 +1,14 @@
 Janraintest::Application.routes.draw do
+
+  root :to => "users#index"
+  get "sessions/rpx_token"
+	
+	get "sessions/new"
+	get "sessions/new"
+
+	#match '/test_token.php', :to => redirect('/test_token.php')
+	match '/test_token.php', :to => "pages#testpage"
+	
   get "pages/home"
 
   get "pages/welcome"
